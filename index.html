@@ -1,60 +1,129 @@
 <html>
-    <head>
-        <title>My Name Is Samir Aryal</title>
-        <style>
-            a{
-                text-decoration: none;
-                background-color: red;
-                color: white;
-                padding: 10px;
-                border-radius: 5px
-                    
-            }
-            img{
-                border-radius: 5px
-            }
-            ol{
-                list-style-type: lower-roman
-            }
-            div.personal{
-                border: 5px solid red
-            }
-            div.Academic{
-                border: 5px solid blue
-            }
-           
-           
-            
-         
-        </style>
-            
-    </head>
-    <body>
-        <a href="htpps://twiter.com" target="_blank">visit my twitter</a>
-        <img src="img/jellyfish.jpg" width="200px">
-        <h2>zones of Nepal</h2>
-        <ol>
-            <li>Mechi</li>
-            <li>Koshi</li>
-            <li>Sagarmatha</li>
-        </ol>
-        <div class="Personal">
-            <h2>personal Information</h2>
-            <p>
-                Name: Samir Aryal <br>
-                Address: Narayantar <br>
-                Contact: 9868199516 <br>
-                Email: samir.aryal56@gmail.com <br>
-                
-            </p>
+<head>
+  <title> this is my title</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+
+  </script>
+  <style>
+  #frist{
+    background-image: url("img/image.jpg");
+    height: 700px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .img-container{
+    width: 30%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 100px
+
+  }
+  img#i1{
+    width: 100%;
+    border-radius: 50%;
+
+  }
+  .name{
+    background-color: #afafaf;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 200px
+  }
+  #quotation{
+    padding: 120px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Mount_Everest_as_seen_from_Drukair.jpg/220px-Mount_Everest_as_seen_from_Drukair.jpg");
+    font-family: 'Dancing Script', cursive;
+    font-size: 4em;
+    background-repeat: repeat-x;
+
+
+
+
+
+
+  }
+  .about_me{
+    padding: 120px;
+    font-size: 4em;
+  }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Samir Aryal</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#">about me</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="#">contact me</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="conatiner-fluid">
+    <div class="row">
+      <div class="col-md-12" id="frist">
+        <div class="row">
+          <div class="img-container">
+            <img src="img/baby.jpg" id="i1">
+
+          </div>
+
+          <div class="name">
+            <h2>
+              Samir Aryal
+            </h2>
+          </div>
+
         </div>
-        <div class="Academic">
-            <h2>Academic Information</h2>
-            <p>
-                School: East-pole higher Secondary School <br>
-                College: JMC(Jaya Multiple Campus)
-                
-            </p>
+
+      </div>
+      <div id="quotation">
+        <p>
+          My name is Samir Aryal. I am from Narayantar.
+        </p>
+
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aZglqkCRNt8" frameborder="0" allowfullscreen></iframe>
+
         </div>
-    </body>
+        <div class="col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/EQoWGJtpl2A" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>About me</h2>
+        </div>
+        <div class="col-md-6">
+          <img class="img img-responsive" src="img/samir.jpg">
+        </div>
+        <div class="col-md-6">
+          <!--                   <img src="img/aryal.jpg">-->
+          <p class="about me">
+            I am Samir Aryal.I from Narayantar,Jorpati. t have completed my secondary level from East pole Higher Secondary school and my higher level education from jaya Multiple Campus.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
 </html>
